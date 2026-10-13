@@ -1,0 +1,15 @@
+{
+  "type": "postgres",
+  "host": "64.227.128.221",
+  "port": 5432,
+  "username": "verve",
+  "password": "verve1996@",
+  "database": "trading-core-db",
+  "entities": ["src/**/*.entity.ts"],
+  "migrations": ["src/migrations/*.ts"],
+  "synchronize": false,
+  "seeds": ["src/seeders/*{.ts,.js}"],
+  "cli": {
+    "migrationsDir": "src/migrations"
+  }
+}
